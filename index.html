@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password-Protected Note Taker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Password-Protected Note Taker</h1>
+    <form id="login-form" class="hidden">
+      <label for="password">Enter Password:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="note-container" class="hidden">
+      <textarea id="note-input" placeholder="Enter your note here"></textarea>
+      <button id="save-button">Save Note</button>
+      <button id="logout-button">Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
